@@ -20,7 +20,11 @@ grouping ={
     'matrial' : 40,
     'oil':12
 }
+
 supplier =Stock(supplier_lement)
 ms_group = Stock(grouping)
-print(supplier.total_product)
+
+if __name__ =="stocks":
+
+    print(supplier.total_product)
 
