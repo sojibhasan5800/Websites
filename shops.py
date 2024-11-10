@@ -1,1 +1,1 @@
-print()
+print("you are ready")
