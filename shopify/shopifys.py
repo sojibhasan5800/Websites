@@ -1,1 +1,0 @@
-print("it my fist file")
