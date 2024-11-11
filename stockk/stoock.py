@@ -1,3 +1,6 @@
+import sys
+import os
+
 class Stock:
     total_product={}
     def __init__(self,items):
@@ -6,7 +9,7 @@ class Stock:
             for element,quantity in items.items():
                 self.product[element] = self.product.get(element,0)+ quantity
                 self.total_product[element] = self.total_product.get(element,0)+ quantity
-        print((f"your product added suffcessfully"))
+        # print((f"your product added suffcessfully"))
     def __repr__(self):
         pass
 
@@ -24,7 +27,8 @@ grouping ={
 supplier =Stock(supplier_lement)
 ms_group = Stock(grouping)
 
-if __name__ =="stocks":
+if __name__ =="__main__":
 
-    print(supplier.total_product)
+    print(Stock.total_product)
 
+   
